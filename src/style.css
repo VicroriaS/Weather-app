@@ -43,10 +43,15 @@ li:first-letter {
   margin: 30px auto;
   width: 150px;
 }
-
+.coder {
+  text-align: center;
+  margin: 30px auto;
+}
 .weather-app-wrapper {
   max-width: 600px;
-  margin: 30px auto;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 50px;
   background: radial-gradient(
     592px at 48.2% 50%,
     rgba(255, 255, 249, 0.6) 0%,
