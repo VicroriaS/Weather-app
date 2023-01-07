@@ -59,10 +59,10 @@ function displayForecast(response) {
         <div class="weather-forecast-temperatures">
           <span class="weather-forecast-temperature-max">${Math.round(
             forecastDay.temperature.maximum
-          )} </span>
+          )} °</span>
           <span class="weather-forecast-temperature-min"> ${Math.round(
             forecastDay.temperature.minimum
-          )} </span>
+          )} °</span>
         </div>
       </div>
   `;
@@ -94,7 +94,7 @@ function showTemperature(response) {
   descriptionElement.innerHTML = response.data.condition.description;
   humidityElement.innerHTML = response.data.temperature.humidity;
   windElement.innerHTML = Math.round(response.data.wind.speed);
-  dateElement.innerHTML = formatDate(response.data.dt * 1000);
+  dateElement.innerHTML = formatDate(response.data.time * 1000);
   iconElement.setAttribute(
     "src",
     ` http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon}.png`

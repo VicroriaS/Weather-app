@@ -11,8 +11,8 @@ h3 {
 }
 
 h1 {
-  color: #878787;
-  font-size: 24px;
+  color: #5585b5;
+  font-size: 30px;
   font-weight: 100;
   line-height: 28px;
   margin-bottom: 0;
@@ -28,11 +28,11 @@ li {
   margin: 0;
   padding: 0;
 
-  color: rgb(135, 135, 135);
+  color: #5585b5;
   font-family: "Dancing Script", cursive;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 100;
-  line-height: 19px;
+  line-height: 20px;
 }
 
 li:first-letter {
@@ -62,7 +62,7 @@ li:first-letter {
 .weather-app {
   padding: 20px;
   border: 1px solid #dadde1;
-  border-radius: 5px;
+  border-radius: 50px;
 }
 
 .overview {
@@ -71,8 +71,8 @@ li:first-letter {
 
 .weather-temperature img {
   margin-right: 5px;
-  height: 64px;
-  width: 64px;
+  height: 70px;
+  width: 70px;
 }
 
 .weather-temperature strong {
@@ -100,6 +100,8 @@ li:first-letter {
 }
 
 .weather-forecast {
+  border-radius: 30px;
+  border: 1px solid #dadde1;
   margin-top: 20px;
   text-align: center;
   color: #000;
@@ -107,7 +109,7 @@ li:first-letter {
 
 .weather-forecast-date {
   font-family: "Dancing Script", cursive;
-  font-size: 16px;
+  font-size: 20px;
   opacity: 0.5;
 }
 
@@ -117,5 +119,5 @@ li:first-letter {
 
 .weather-forecast-temperatures {
   font-family: "Dancing Script", cursive;
-  font-size: 13px;
+  font-size: 15px;
 }
